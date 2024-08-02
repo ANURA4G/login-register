@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-image:url(d8ltjf.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(78, 173, 78);
+}
+.head{
+    text-align: center;
+    color: aliceblue;
+}
+.box {
+    
+    width :350px;
+    border:  2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    min-height: 20px;
+    margin-top: 20px;
+    padding: 30px 30px;
+
+}
+
+.name input{
+    width:100%;
+    border:  2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    margin-top: 10px;
+    background:transparent;
+    color: aliceblue;
+    outline: none;
+    padding-left: 5px;
+    
+}
+
+.name  input::placeholder{
+    color: aliceblue;
+    opacity:calc(.85);
+    font-size: 12Px;
+}
+
+.email input{
+    width:100%;
+    border:  2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    margin-top: 10px;
+    background:transparent;
+    color: aliceblue;
+    outline: none;
+    padding-left: 5px;
+}
+.num input{
+    width:100%;
+    border:  2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    margin-top: 10px;
+    background:transparent;
+    color: aliceblue;
+    outline: none;
+    padding-left: 5px;
+}
+
+.email  input::placeholder{
+    color: aliceblue;
+    opacity:calc(.85);
+    font-size: 12Px;
+}
+
+.num  input::placeholder{
+    color: aliceblue;
+    opacity:calc(.85);
+    font-size: 12Px;
+}
+button{
+    width: 80%;
+    border:  0.5px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: white;
+    outline: none;
+    
+}
+button:hover{
+    background-color: rgb(74, 138, 221);
+    color: white;
+}
